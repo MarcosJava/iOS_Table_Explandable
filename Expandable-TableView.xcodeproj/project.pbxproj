@@ -12,6 +12,7 @@
 		CFB184131FD8271C00541C2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB184111FD8271C00541C2F /* Main.storyboard */; };
 		CFB184151FD8271C00541C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB184141FD8271C00541C2F /* Assets.xcassets */; };
 		CFB184181FD8271C00541C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB184161FD8271C00541C2F /* LaunchScreen.storyboard */; };
+		CFB184221FD82D8A00541C2F /* ExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB184211FD82D8A00541C2F /* ExpandableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CFB184141FD8271C00541C2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFB184171FD8271C00541C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFB184191FD8271C00541C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB184211FD82D8A00541C2F /* ExpandableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CFB1840D1FD8271C00541C2F /* AppDelegate.swift */,
 				CFB1840F1FD8271C00541C2F /* ViewController.swift */,
+				CFB184211FD82D8A00541C2F /* ExpandableCell.swift */,
 				CFB184111FD8271C00541C2F /* Main.storyboard */,
 				CFB184141FD8271C00541C2F /* Assets.xcassets */,
 				CFB184161FD8271C00541C2F /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				CFB184101FD8271C00541C2F /* ViewController.swift in Sources */,
 				CFB1840E1FD8271C00541C2F /* AppDelegate.swift in Sources */,
+				CFB184221FD82D8A00541C2F /* ExpandableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2686JM7D9;
 				INFOPLIST_FILE = "Expandable-TableView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.mfelipesp.Expandable-TableView";
@@ -289,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2686JM7D9;
 				INFOPLIST_FILE = "Expandable-TableView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.mfelipesp.Expandable-TableView";

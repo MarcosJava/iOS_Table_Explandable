@@ -6,6 +6,21 @@
 //  Copyright © 2017 Marcos Felipe Souza Pinto. All rights reserved.
 //
 
+
+/*
+ ** Pros:
+  - no hassle with with reusing cells
+  - relatively simple to understand
+  - quick to implement
+  - sufficient in most cases
+ 
+ ** Cons:
+  - only for simple autolayout design
+  - when height can’t be constant – ouch, that won’t work :(
+ 
+ 
+ */
+
 import UIKit
 
 @UIApplicationMain
