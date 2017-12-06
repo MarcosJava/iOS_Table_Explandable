@@ -41,7 +41,7 @@
                                                     <rect key="frame" x="67" y="99" width="240" height="128"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="46E-EF-jZ3" secondAttribute="height" multiplier="15:8" id="OXx-bc-tqm"/>
-                                                        <constraint firstAttribute="height" constant="128" id="pjS-bR-9do"/>
+                                                        <constraint firstAttribute="height" priority="999" constant="128" id="pjS-bR-9do"/>
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
